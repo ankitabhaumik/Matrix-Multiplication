@@ -1,0 +1,84 @@
+C:\Users\ankit\OneDrive\Documents\Ankita_CPP\Matrix_multiplication\build>.\Debug\matrix_multiply.exe 
+Enter row of matrix1 : 4
+Enter col of matrix1 : 5
+Enter row of matrix2 : 5
+Enter col of matrix2 : 6
+Enter the elements of matrix one 
+1 2 3
+4
+5
+6
+7
+8
+9
+9 
+5
+2 
+
+23
+5
+6
+7
+8
+3
+5
+7
+Enter the elements of matrix two
+1
+2
+3
+5
+4
+6
+7
+8
+9
+10
+11
+12
+12
+13
+12
+1
+2
+3
+4
+5 
+6
+78
+10
+11
+12
+12
+13
+12
+1
+2
+3
+4
+5
+6
+78
+3
+4
+5
+6
+78
+78
+8
+6
+4
+4
+3
+
+2
+4
+4
+57
+3
+2
+4
+4
+57
+time taken for singlethread : 0.0001136seconds
+time taken for multithread : 0.0016195seconds
