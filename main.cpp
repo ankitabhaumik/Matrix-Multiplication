@@ -85,27 +85,27 @@ void main()
         return;
     }
 
-    vector<vector<int>> matx1(row1, vector<int>(col1));
-    vector<vector<int>> matx2(row2, vector<int>(col2));
+    vector<vector<int>> matx1(row1, vector<int>(col1,1));
+    vector<vector<int>> matx2(row2, vector<int>(col2,1));
 
-    cout<<"Enter the elements of matrix one " <<endl;
-    for(int i = 0;i<row1;i++)
-    {
-        for(int j=0;j<col1;j++)
-        {
-            cin>>matx1[i][j];
-        }
-    }
+    // cout<<"Enter the elements of matrix one " <<endl;
+    // for(int i = 0;i<row1;i++)
+    // {
+    //     for(int j=0;j<col1;j++)
+    //     {
+    //         cin>>matx1[i][j];
+    //     }
+    // }
 
-    cout<<"Enter the elements of matrix two " <<endl;
+    // cout<<"Enter the elements of matrix two " <<endl;
 
-    for(int i = 0;i<row2;i++)
-    {
-        for(int j=0;j<col2;j++)
-        {
-            cin>>matx2[i][j];
-        }
-    }
+    // for(int i = 0;i<row2;i++)
+    // {
+    //     for(int j=0;j<col2;j++)
+    //     {
+    //         cin>>matx2[i][j];
+    //     }
+    // }
 
     //Single Threaded Matrix Calculation 
     vector<vector<int>> res(row1, vector<int>(col2,0));
