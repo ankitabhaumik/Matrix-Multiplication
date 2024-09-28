@@ -20,10 +20,9 @@ void matrixmultiplysinglethreaded(vector<vector<int>> &matx1 , vector<vector<int
  
 }
 
-void matrixmultiplymultithreaded(vector<vector<int>> &matx1 , vector<vector<int>> &matx2,vector<vector<int>> res_mul, int startr1, int endr1,int c2, int r2)
+void matrixmultiplymultithreaded(vector<vector<int>> &matx1 , vector<vector<int>> &matx2,vector<vector<int>> &res_mul, int startr1, int endr1,int c2, int r2)
 {
     //N X M * M X P = N X P
-    int r1 = endr1-startr1+1;
     for(int i=startr1;i<endr1;i++)
     {
         for(int k=0;k<c2;k++)
